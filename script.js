@@ -23,7 +23,7 @@ function appendPercentage() {
     try {
         resultField.value = eval(resultField.value) / 100;
     } catch (error) {
-        resultField.value = 'Error.';
+        resultField.value = 'Error!';
     }
 }
 function clearLastEntry() {
