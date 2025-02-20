@@ -9,17 +9,16 @@ body {
 }
 
 .calculator {
-    background-color: #202020;
+    background-color: #202020ec;
     border-radius: 8px;
     padding: 20px;
     width: 320px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #result {
     width: 100%;
     height: 80px;
-    background-color: #333;
+    background-color: #404040fe;
     border: none;
     color: white;
     font-size: 40px;
@@ -48,17 +47,17 @@ button {
 }
 
 .number {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.253);
     color: white;
 }
 
 .operation {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.137);
     color: white;
 }
 
 .special {
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: rgba(255, 255, 255, 0.032);
     color: white;
 }
 
