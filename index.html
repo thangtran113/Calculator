@@ -9,6 +9,19 @@
 </head>
 <body>
     <div class="calculator">
+        <div class="menu-bar">
+            <div class="menu-item">
+                <span>☰</span>
+                <div class="dropdown-content">
+                    <a href="#">Chuẩn</a>
+                    <a href="#">Khoa học</a>
+                    <a href="#">Lập trình</a>
+                    <a href="#">Đổi đơn vị</a>
+                </div>
+            </div>
+            <span class="calculator-type">Máy tính chuẩn</span>
+            <span class="history-btn">📋</span>
+        </div>
         <input type="text" id="result" disabled>
         <div class="buttons">
             <button class="special" onclick="appendPercentage()">%</button>
@@ -22,11 +35,11 @@
             <button class="number" onclick="appendToResult('7')">7</button>
             <button class="number" onclick="appendToResult('8')">8</button>
             <button class="number" onclick="appendToResult('9')">9</button>
-            <button class="operation" onclick="appendToResult('*')">×</button>
+            <button class="operation" onclick="appendToResult('*')">x</button>
             <button class="number" onclick="appendToResult('4')">4</button>
             <button class="number" onclick="appendToResult('5')">5</button>
             <button class="number" onclick="appendToResult('6')">6</button>
-            <button class="operation" onclick="appendToResult('-')">−</button>
+            <button class="operation" onclick="appendToResult('-')">-</button>
             <button class="number" onclick="appendToResult('1')">1</button>
             <button class="number" onclick="appendToResult('2')">2</button>
             <button class="number" onclick="appendToResult('3')">3</button>

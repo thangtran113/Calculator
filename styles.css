@@ -82,3 +82,65 @@ button:hover {
 .equal:active {
     background-color: #3BA3E0;
 }
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu-item span {
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.menu-item:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.calculator-type {
+    font-size: 14px;
+}
+
+.history-btn {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.history-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
